@@ -1,0 +1,27 @@
+{
+    "name": "ostheneo/filepond",
+    "description": "A Nova field for uploading File, Image and Video using filepond.",
+    "keywords": ["file", "upload", "video", "laravel", "nova", "field", "doka" ],
+    "authors": [{ "name": "Harry Gutierrez" }],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "OsTheNeo\\Filepond\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "OsTheNeo\\Filepond\\FilepondServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
